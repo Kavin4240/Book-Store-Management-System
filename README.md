@@ -1,23 +1,41 @@
 **Book Store Management System**
+
+
 This project is a Book Store Management System built using the MERN stack (MongoDB, Express, ReactJS, NodeJS). It provides functionalities for both admin and student users, where admins can manage books and students can view the available books.
 
 **Features:**
+
 **Admin:**
+
+
 --Add students
+
+
 --Add books
+
+
 --Edit books
+
+
 --Delete books
 
+
 **Student:**
+
 --View books available in the bookstore
 
+
 **Installation:**
+
+
 **Client:**
+
 
 npm install axios
 
 
 **Server:**
+
 
 npm install express
 
