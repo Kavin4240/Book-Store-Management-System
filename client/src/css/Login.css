@@ -1,0 +1,56 @@
+.login-page, .student-form-container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    block-size:90vh;
+    background-color: #301934;
+}
+
+.login-container, .student-form{
+    background-color:rgba(255,255,255,0.7);
+    border-radius:8px;
+    box-shadow: rgba(0,0,0,1);
+    padding:30px;
+    inline-size:400px;
+}
+
+.login-container h2, .student-form h2{
+    margin-block-end:20px;
+    text-align: center;
+}
+
+.login-container .form-group, .student-form .form-group{
+    margin-block-end:15px;
+}
+
+.login-container .form-group label, .student-form .form-group label{
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-block-start:5px;
+}
+
+.login-container .form-group input,
+.login-container .form-group select,
+.student-form .form-group input
+{
+    inline-size:100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-block-start:5px;
+}
+
+.login-container .btn-login , .student-form .btn-login{
+    background-color:#4caf50;
+    color:#fff;
+    padding:10px;
+    inline-size:100%;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+    margin-block-start:8px;
+}
