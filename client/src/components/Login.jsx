@@ -13,7 +13,7 @@ const Login = ({ setRoleVar }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError(''); // Reset error state
+        setError(''); 
 
         try {
             const res = await axios.post("http://localhost:3001/auth/login", {

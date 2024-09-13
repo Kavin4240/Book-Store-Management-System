@@ -1,17 +1,31 @@
 import mongoose from 'mongoose';
-const bookSchema =new mongoose.Schema({
-    name:{
-        type:String
+
+const bookSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
     },
-    author:{
-        type:String,
-        required:true,
-        unique:true
+    ename: {
+        type: String,
+        required: true
     },
-    imageUrl:{
-        type:String,
-        required:true
+    author: {
+        type: String,  // No unique constraint
+        required: true
+    },
+    price: {
+        type: Number,
+        required: true
+    },
+    quan: {
+        type: Number,
+        required: true
+    },
+    imageUrl: {
+        type: String,
+        required: true
     }
-})
-const bookModel=mongoose.model('Book',bookSchema)
-export {bookModel as Book}
+});
+
+const Book = mongoose.model('Book', bookSchema);
+export { Book };
